@@ -10,7 +10,7 @@
 ## About  Laravel Version 11 and Php 8.2
 	
         Composer install.
-	npm install.
+	  npm install.
         php artisan key:genrate
         php artisan migrate;
 	php artisan db:seed --class=UserSeeder
