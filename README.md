@@ -17,3 +17,18 @@
         php artisan db:seed --class=PermissionSeeder
         php artisan db:seed --class=RoleSeeder
         php artisan storage:link
+
+	Login details:- 
+	Admin- email => admin@example.com,
+	       password => password
+	Author- email => author@example.com,
+	       password => password
+	       
+	Web Route :-http://127.0.0.1:8000/posts
+		http://127.0.0.1:8000/posts/create
+	        http://127.0.0.1:8000/posts/create
+	 Api Route - Get all posts: http://127.0.0.1:8000/api/posts
+		Get a single post: http://127.0.0.1:8000/api/posts/{id}
+		Create a new post (authenticated): http://127.0.0.1:8000/api/posts
+		Update a post (authenticated): http://127.0.0.1:8000/api/posts/{id} 
+		Delete a post (authenticated): http://127.0.0.1:8000/api/posts/{id}
